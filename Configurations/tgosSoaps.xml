@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <QueryAddr xmlns="http://tempuri.org/">
+      <oAPPId>{oAPPId}</oAPPId>
+      <oAPIKey>{oAPIKey}</oAPIKey>
+      <oAddress>{oAddress}</oAddress>
+      <oSRS>{oSRS}</oSRS>
+      <oFuzzyType>{oFuzzyType}</oFuzzyType>
+      <oResultDataType>{oResultDataType}</oResultDataType>
+      <oFuzzyBuffer>{oFuzzyBuffer}</oFuzzyBuffer>
+      <oIsOnlyFullMatch>{oIsOnlyFullMatch}</oIsOnlyFullMatch>
+      <oIsSupportPast>{oIsSupportPast}</oIsSupportPast>
+      <oIsShowCodeBase>{oIsShowCodeBase}</oIsShowCodeBase>
+      <oIsLockCounty>{oIsLockCounty}</oIsLockCounty>
+      <oIsLockTown>{oIsLockTown}</oIsLockTown>
+      <oIsLockVillage>{oIsLockVillage}</oIsLockVillage>
+      <oIsLockRoadSection>{oIsLockRoadSection}</oIsLockRoadSection>
+      <oIsLockLane>{oIsLockLane}</oIsLockLane>
+      <oIsLockAlley>{oIsLockAlley}</oIsLockAlley>
+      <oIsLockArea>{oIsLockArea}</oIsLockArea>
+      <oIsSameNumber_SubNumber>{oIsSameNumber_SubNumber}</oIsSameNumber_SubNumber>
+      <oCanIgnoreVillage>{oCanIgnoreVillage}</oCanIgnoreVillage>
+      <oCanIgnoreNeighborhood>{oCanIgnoreNeighborhood}</oCanIgnoreNeighborhood>
+      <oReturnMaxCount>{oReturnMaxCount}</oReturnMaxCount>
+    </QueryAddr>
+  </soap12:Body>
+</soap12:Envelope>
